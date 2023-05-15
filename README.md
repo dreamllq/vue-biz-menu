@@ -82,6 +82,7 @@ const menuData = [
 | menuIndex | 选中的菜单index | String | - |
 | isCollapse | 是否折叠 | Boolean | false |
 | model | 菜单展示模式 | horizontal / vertical | vertical |
+| unique-opened | 是否只保持一个子菜单的展开 | boolean | false |
 
 ### Events
 

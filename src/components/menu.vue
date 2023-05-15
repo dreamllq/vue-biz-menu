@@ -50,6 +50,10 @@ defineProps({
   mode: {
     type: String as PropType<'vertical' | 'horizontal'>,
     default: 'vertical'
+  },
+  uniqueOpened: {
+    type: Boolean,
+    default: false
   }
 });
 
